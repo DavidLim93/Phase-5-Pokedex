@@ -3,7 +3,7 @@
   margin: 40px auto;
 }
 button {
-  background: none;
+  background: #0096FF;
   border: 2px solid #fff;
   padding: 6px 12px;
   border-radius: 4px;
@@ -11,6 +11,7 @@ button {
   font-weight: bold;
   cursor: pointer;
   font-size: 1em;
+  margin: 10px;
 }
 button:hover {
   background: #c23866;
@@ -27,13 +28,14 @@ button:hover {
 .card {
   position: relative;
   background-color: white;
+  width: 100%;
 }
 
 .card img {
   width: 100%;
   display: block;
-  border: 2px solid #fff;
-  border-radius: 6px;
+
+
 }
 
 .card .front {
@@ -55,4 +57,23 @@ button:hover {
 .flipped .back {
   transform: rotateY(90deg);
   transition-delay: 0s;
+}
+
+.text {
+  margin: 10px;
+}
+
+.logout {
+  display: inline-block;
+  width: 100px;
+  padding: 12px;
+  margin: 0 6px 6px;
+  background: #702963;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #fff
+}
+
+.score-list {
+  list-style-type: none;
 }

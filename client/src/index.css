@@ -7,6 +7,6 @@ body {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
-  background: black;
+  background: rgba(255, 0, 0, 0.588);
   color: #fff;
 }
