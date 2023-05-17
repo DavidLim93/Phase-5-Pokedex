@@ -40,16 +40,16 @@ function App() {
         <Route path="/signup">
           <SignUp />
         </Route>
-        <Route path="/scores">
+        {/* <Route path="/scores">
           <Scores />
-        </Route>
+        </Route> */}
         <Route path="/login">
           <Login onLogin={handleLogin}/>
         </Route>
       </Switch>
-      {
+      {/* {
           console.log(user)
-      }
+      } */}
       
     </div>
     

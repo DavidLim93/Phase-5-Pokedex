@@ -81,24 +81,24 @@ function Game({user_id}) {
     if (cards.length > 0 && cards.every((card) => card.matched === true)) {
       setGameWon(true);
       dispatch(updateScores(turns));
-      saveScore()
+    //   saveScore()
     }
   }, [cards, dispatch, turns]);
 
-  function saveScore() {
-    setScore(turns)
-      fetch('/scores', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ score, user_id}),
-      })
-        .then((response) => response.json())
+//   function saveScore() {
+//     setScore(turns)
+//       fetch('/scores', {
+//         method: 'POST',
+//         headers: {
+//           'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify({ score, user_id}),
+//       })
+//         .then((response) => response.json())
         // .then((newScore) => {
         //   setScore([...score, newScore]);
         // })
-  }
+//   }
  
   return (
     

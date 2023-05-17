@@ -7,7 +7,10 @@ function Home ({user}) {
 
     return (
         <div>  
-            <Game user={user} user_id={user.id}/>
+            <Game 
+            user={user} 
+            // user_id={user.id}
+            />
         </div>
         
     )

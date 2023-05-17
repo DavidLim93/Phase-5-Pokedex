@@ -31,7 +31,7 @@ return (
         <ul>
             <NavLink to="/" exact style={linkStyles} isLoggedIn={isLoggedIn}>Home</NavLink>
             <NavLink to="/signup" style={linkStyles}>Sign Up</NavLink>
-            <NavLink to="/scores" style={linkStyles}>Scores</NavLink>
+            {/* <NavLink to="/scores" style={linkStyles}>Scores</NavLink> */}
             <NavLink to="/login" style={linkStyles}>Login</NavLink>
             <NavLink to="/" exact style={linkStyles} onClick={handleLogoutClick}>Logout</NavLink> 
  

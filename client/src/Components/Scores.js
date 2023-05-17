@@ -11,7 +11,7 @@ function Scores() {
 
   return (
     <div>
-    {/* <ul className='score-list'>
+    <ul className='score-list'>
       {scores.length > 0 ? (
         scores.map((score, index) => (
           <li key={index}>
@@ -21,10 +21,10 @@ function Scores() {
       ) : (
         <li>No scores available</li>
       )}
-    </ul> */}
-    {
+    </ul>
+    {/* {
         console.log(scores)
-    }
+    } */}
   </div>
   );
 }
